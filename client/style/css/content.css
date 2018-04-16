@@ -1,0 +1,118 @@
+.formcontainer {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 10%;
+  position: relative;
+  height: 100%;
+  background-color: antiquewhite; }
+  .formcontainer .login_form, .formcontainer .registration_form, .formcontainer .password_recovery_form {
+    background-color: #e4e0d4;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 1em;
+    margin: auto 5px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    @media (max-width: 339px) {
+      .formcontainer .login_form, .formcontainer .registration_form, .formcontainer .password_recovery_form {
+        width: 280px;
+        padding: 0.5em; } }
+    @media (min-width: 340px) and (max-width: 369px) {
+      .formcontainer .login_form, .formcontainer .registration_form, .formcontainer .password_recovery_form {
+        width: 300px;
+        padding: 0.5em; } }
+    @media (min-width: 370px) and (max-width: 449px) {
+      .formcontainer .login_form, .formcontainer .registration_form, .formcontainer .password_recovery_form {
+        width: 325px;
+        padding: 0.5em; } }
+    @media (min-width: 450px) and (max-width: 669px) {
+      .formcontainer .login_form, .formcontainer .registration_form, .formcontainer .password_recovery_form {
+        width: 350px; } }
+    .formcontainer .login_form .spanabout, .formcontainer .registration_form .spanabout, .formcontainer .password_recovery_form .spanabout {
+      font-size: 25px;
+      color: #1e6464; }
+      @media (max-width: 369px) {
+        .formcontainer .login_form .spanabout, .formcontainer .registration_form .spanabout, .formcontainer .password_recovery_form .spanabout {
+          font-size: 20px; } }
+      @media (min-width: 370px) and (max-width: 449px) {
+        .formcontainer .login_form .spanabout, .formcontainer .registration_form .spanabout, .formcontainer .password_recovery_form .spanabout {
+          font-size: 22px; } }
+    .formcontainer .login_form #form, .formcontainer .registration_form #form, .formcontainer .password_recovery_form #form {
+      width: 350px;
+      margin: 0 auto; }
+      @media (max-width: 339px) {
+        .formcontainer .login_form #form, .formcontainer .registration_form #form, .formcontainer .password_recovery_form #form {
+          width: 240px; } }
+      @media (min-width: 340px) and (max-width: 369px) {
+        .formcontainer .login_form #form, .formcontainer .registration_form #form, .formcontainer .password_recovery_form #form {
+          width: 250px; } }
+      @media (min-width: 370px) and (max-width: 449px) {
+        .formcontainer .login_form #form, .formcontainer .registration_form #form, .formcontainer .password_recovery_form #form {
+          width: 275px; } }
+      @media (min-width: 450px) and (max-width: 669px) {
+        .formcontainer .login_form #form, .formcontainer .registration_form #form, .formcontainer .password_recovery_form #form {
+          width: 300px; } }
+      .formcontainer .login_form #form .inputs, .formcontainer .registration_form #form .inputs, .formcontainer .password_recovery_form #form .inputs {
+        margin-top: 5px;
+        width: 350px; }
+        @media (max-width: 339px) {
+          .formcontainer .login_form #form .inputs, .formcontainer .registration_form #form .inputs, .formcontainer .password_recovery_form #form .inputs {
+            width: 240px; } }
+        @media (min-width: 340px) and (max-width: 369px) {
+          .formcontainer .login_form #form .inputs, .formcontainer .registration_form #form .inputs, .formcontainer .password_recovery_form #form .inputs {
+            width: 250px; } }
+        @media (min-width: 370px) and (max-width: 449px) {
+          .formcontainer .login_form #form .inputs, .formcontainer .registration_form #form .inputs, .formcontainer .password_recovery_form #form .inputs {
+            width: 275px; } }
+        @media (min-width: 450px) and (max-width: 669px) {
+          .formcontainer .login_form #form .inputs, .formcontainer .registration_form #form .inputs, .formcontainer .password_recovery_form #form .inputs {
+            width: 300px; } }
+        .formcontainer .login_form #form .inputs input, .formcontainer .registration_form #form .inputs input, .formcontainer .password_recovery_form #form .inputs input {
+          width: 100%;
+          height: 50px;
+          padding: 15px;
+          font-size: 20px;
+          font-family: "Roboto", sans-serif;
+          box-sizing: border-box;
+          border: 0.5px solid #dddddd;
+          border-radius: 5px; }
+          @media (max-width: 369px) {
+            .formcontainer .login_form #form .inputs input, .formcontainer .registration_form #form .inputs input, .formcontainer .password_recovery_form #form .inputs input {
+              height: 35px;
+              padding: 10px;
+              font-size: 16px; } }
+          @media (min-width: 370px) and (max-width: 449px) {
+            .formcontainer .login_form #form .inputs input, .formcontainer .registration_form #form .inputs input, .formcontainer .password_recovery_form #form .inputs input {
+              height: 40px;
+              font-size: 18px; } }
+          .formcontainer .login_form #form .inputs input:focus, .formcontainer .registration_form #form .inputs input:focus, .formcontainer .password_recovery_form #form .inputs input:focus {
+            outline: none !important;
+            border: 0.5px solid #07afb0; }
+          .formcontainer .login_form #form .inputs input[type="submit"], .formcontainer .registration_form #form .inputs input[type="submit"], .formcontainer .password_recovery_form #form .inputs input[type="submit"] {
+            background-color: #07afb0;
+            color: #fcf9ea;
+            margin-top: 10px;
+            padding: 5px; }
+      .formcontainer .login_form #form .span, .formcontainer .registration_form #form .span, .formcontainer .password_recovery_form #form .span {
+        display: inline-block;
+        margin-top: 10px; }
+        @media (max-width: 449px) {
+          .formcontainer .login_form #form .span, .formcontainer .registration_form #form .span, .formcontainer .password_recovery_form #form .span {
+            font-size: 16px;
+            margin-top: 5px; } }
+        .formcontainer .login_form #form .span a, .formcontainer .registration_form #form .span a, .formcontainer .password_recovery_form #form .span a {
+          text-decoration: none;
+          color: #07afb0; }
+      @media (max-width: 369px) {
+        .formcontainer .login_form #form .forgot, .formcontainer .login_form #form .remember, .formcontainer .registration_form #form .forgot, .formcontainer .registration_form #form .remember, .formcontainer .password_recovery_form #form .forgot, .formcontainer .password_recovery_form #form .remember {
+          font-size: 16px; } }
+      @media (min-width: 370px) and (max-width: 449px) {
+        .formcontainer .login_form #form .forgot, .formcontainer .login_form #form .remember, .formcontainer .registration_form #form .forgot, .formcontainer .registration_form #form .remember, .formcontainer .password_recovery_form #form .forgot, .formcontainer .password_recovery_form #form .remember {
+          font-size: 18px; } }
+  @media (max-width: 819px) {
+    .formcontainer .reg {
+      margin-top: 20px; } }
+
+/*# sourceMappingURL=content.css.map */

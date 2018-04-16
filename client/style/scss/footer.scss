@@ -1,0 +1,21 @@
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    
+    .aboutme{
+        width: 100%;
+        text-align: center;       
+        //font-family: 'Lobster', Georgia, Times, serif;
+        font-size: 22px;
+        margin: 11px auto;
+        @media (max-width: 449px) {
+            font-size: 20px;
+        }
+        span {
+            display: block;
+            margin: 0px;
+        }
+    } 
+}

@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.header {
+  background-color: antiquewhite; }
+  .header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; }
+    .header .container p {
+      font-family: "Roboto", sans-serif;
+      font-size: 40px; }
+
+/*# sourceMappingURL=header.css.map */
